@@ -1,0 +1,95 @@
+{
+  "razas": [
+    {
+      "name": "Humano",
+      "size": "Mediano",
+      "description": "Versátiles y adaptables.",
+      "stast": {
+        "STR": 1,
+        "DEX": 1,
+        "CON": 1,
+        "INT": 1,
+        "WIS": 1,
+        "CHA": 1
+      }
+    },
+    {
+      "name": "Alto Elfo",
+      "size": "Mediano",
+      "description": "Ágiles y con gran afinidad mágica.",
+      "stast": {
+        "STR": 0,
+        "DEX": 2,
+        "CON": 0,
+        "INT": 1,
+        "WIS": 1,
+        "CHA": 0
+      }
+    },
+    {
+      "name": "Enano",
+      "size": "Mediano",
+      "description": "Enano con ENANISMOOO",
+      "stast": {
+        "STR": 2,
+        "DEX": 0,
+        "CON": 2,
+        "INT": 0,
+        "WIS": 0,
+        "CHA": 0  
+        }
+    },
+    {
+      "name": "Mediano",
+      "size": "Small",
+      "description": "Lo mismo que el Enano con ENANISMOOO pero CON MAS ENANISMO",
+      "stast": {
+        "STR": 0,
+        "DEX": 2,
+        "CON": 1,
+        "INT": 0,
+        "WIS": 0,
+        "CHA": 0  
+        }
+    },
+    {
+      "name": "Draconido",
+      "size": "Medium",
+      "description": "He's a freaking human-dragon with a lot of swagger.",
+      "stast": {
+        "STR": 2,
+        "DEX": 0,
+        "CON": 0,
+        "INT": 0,
+        "WIS": 0,
+        "CHA": 1  
+        }
+    },
+    {
+      "name": "Gnomo",
+      "size": "Small",
+      "description": "Un enano magico",
+      "stast": {
+        "STR": 2,
+        "DEX": 0,
+        "CON": 0,
+        "INT": 0,
+        "WIS": 0,
+        "CHA": 1  
+        }
+    },
+    {
+      "name": "Tiflin",
+      "size": "Medium",
+      "description": "The devil can do striptease.",
+      "stast": {
+        "STR": 2,
+        "DEX": 0,
+        "CON": 0,
+        "INT": 0,
+        "WIS": 0,
+        "CHA": 1  
+        }
+    }
+  ]
+}
