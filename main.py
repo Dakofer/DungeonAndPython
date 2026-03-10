@@ -1,13 +1,26 @@
 from textual.app import App
-from textual.widgets import ListView, ListItem, Label
 
-class Menu(App):
+from screens.main_menu import MainMenu
+from screens.create_character import CreateCharacter
+from screens.load_character import LoadCharacter
+from screens.combat_mode import CombatMode
 
-    def compose(self):
-        yield ListView(
-            ListItem(Label("Start Game")),
-            ListItem(Label("Load Game")),
-            ListItem(Label("Exit"))
-        )
 
-Menu().run()
+class RPGApp(App):
+
+    SCREENS = {
+        "main_menu": MainMenu,
+        "create_character": CreateCharacter,
+        "load_character": LoadCharacter,
+        "combat_mode": CombatMode,
+    }
+
+    def on_mount(self):
+        self.push_screen("main_menu")
+
+
+if __name__ == "__main__":
+    app = RPGApp()
+    app.run()
+
+

@@ -1,0 +1,79 @@
+{
+  "habilidad": [
+        {
+        "name": "Vision Nocturna",
+        "requisitoXnivel": "1",
+        "description": "Tus ojos estan adaptados para mirar a 60f de distancia."
+        },
+        {
+        "name": "Ancestros fericos",
+        "requisitoXnivel": "1",
+        "description": "Tienes resistencia a los estados de <Encantado> y  a <Sueño>."
+        },
+        {
+        "name": "Keen Senses",
+        "requisitoXnivel": "1",
+        "description": "Tienes proficiencia en tu skill <Persepcion>."
+        },
+        {
+        "name": "Entrenamiendo en armas Elficas",
+        "requisitoXnivel": "1",
+        "description": "Tienes proficiencia en armas de tipo <longsword>,<shortword>,<shortbow> and <longbow>."
+        },
+        {
+        "name": "Dwarven Resilience",
+        "requisitoXnivel": "1",
+        "description": "You have advantage on saving throws against poison, and you have resistance against poison damage."
+        },
+        {
+        "name": "Dwarven Combat Training",
+        "requisitoXnivel": "1",
+        "description": "You have proficiency with the battleaxe, handaxe, light hammer, and warhammer."
+        },
+        {
+        "name": "Tool Proficiency",
+        "requisitoXnivel": "1",
+        "description": "You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools."
+        },
+        {
+        "name": "Stout Resilience",
+        "requisitoXnivel": "1",
+        "description": "You have advantage on saving throws against poison, and you have resistance to poison damage."
+        },
+        {
+        "name": "Lucky",
+        "requisitoXnivel": "1",
+        "description": "When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die. You must use the new result, even if it is a 1."
+        },
+        {
+        "name": "Brave",
+        "requisitoXnivel": "1",
+        "description": "You have advantage on saving throws against being frightened."
+        },
+        {
+        "name": "Nimble",
+        "requisitoXnivel": "1",
+        "description": "You can move through the space of any creature that is of a size larger than yours."
+        },
+        {
+        "name": "Draconic Ancestry",
+        "requisitoXnivel": "1",
+        "description": "You are distantly related to a particular kind of dragon. Choose a type of dragon from the below list; this determines the damage and area of your breath weapon, and the type of resistance you gain."
+        },
+        {
+        "name": "Breath Weapon",
+        "requisitoXnivel": "1",
+        "description": "You can use your action to exhale destructive energy. It deals damage in an area according to your ancestry."
+        },
+        {
+        "name": "Damage Resistance",
+        "requisitoXnivel": "1",
+        "description": "You have resistance to the damage type associated with your ancestry."
+        },
+        {
+        "name": "Hellish Resistance",
+        "requisitoXnivel": "1",
+        "description": "You have resistance to fire damage."
+        }
+    ]
+}

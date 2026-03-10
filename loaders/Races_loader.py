@@ -9,6 +9,7 @@ def Load_race(races_json):
         new_races = Races_list(name=r["name"],
                          size=r["size"],
                          description=r["description"],
+                         speed=r["speed"],
                          stast=r["stast"])
         races.append(new_races)
     return races

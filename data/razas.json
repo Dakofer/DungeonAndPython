@@ -4,6 +4,7 @@
       "name": "Humano",
       "size": "Mediano",
       "description": "Versátiles y adaptables.",
+      "speed": 25,
       "stast": {
         "STR": 1,
         "DEX": 1,
@@ -14,9 +15,10 @@
       }
     },
     {
-      "name": "Alto Elfo",
+      "name": "Alto_Elfo",
       "size": "Mediano",
       "description": "Ágiles y con gran afinidad mágica.",
+      "speed": 25,
       "stast": {
         "STR": 0,
         "DEX": 2,
@@ -30,6 +32,7 @@
       "name": "Enano",
       "size": "Mediano",
       "description": "Enano con ENANISMOOO",
+      "speed": 25,
       "stast": {
         "STR": 2,
         "DEX": 0,
@@ -43,6 +46,7 @@
       "name": "Mediano",
       "size": "Small",
       "description": "Lo mismo que el Enano con ENANISMOOO pero CON MAS ENANISMO",
+      "speed": 25,
       "stast": {
         "STR": 0,
         "DEX": 2,
@@ -56,19 +60,7 @@
       "name": "Draconido",
       "size": "Medium",
       "description": "He's a freaking human-dragon with a lot of swagger.",
-      "stast": {
-        "STR": 2,
-        "DEX": 0,
-        "CON": 0,
-        "INT": 0,
-        "WIS": 0,
-        "CHA": 1  
-        }
-    },
-    {
-      "name": "Gnomo",
-      "size": "Small",
-      "description": "Un enano magico",
+      "speed": 25,
       "stast": {
         "STR": 2,
         "DEX": 0,
@@ -82,13 +74,14 @@
       "name": "Tiflin",
       "size": "Medium",
       "description": "The devil can do striptease.",
+      "speed": 25,
       "stast": {
-        "STR": 2,
+        "STR": 0,
         "DEX": 0,
         "CON": 0,
-        "INT": 0,
+        "INT": 1,
         "WIS": 0,
-        "CHA": 1  
+        "CHA": 2  
         }
     }
   ]
