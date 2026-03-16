@@ -5,7 +5,7 @@ def Load_abilities(abilities_json):
     with open(abilities_json, 'r', encoding='utf-8') as archivo:
         abilities_json = json.load(archivo)
     abilities=[]
-    for r  in abilities_json["razas"]:
+    for r  in abilities_json["habilidad"]:
         new_races = Abilities_list(
                          name=r["name"],
                          requisitoXnivel=r["requisitoXnivel"],

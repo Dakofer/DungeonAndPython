@@ -12,7 +12,8 @@
         "INT": 1,
         "WIS": 1,
         "CHA": 1
-      }
+        },
+        "abilities": []
     },
     {
       "name": "Alto_Elfo",
@@ -26,7 +27,8 @@
         "INT": 1,
         "WIS": 1,
         "CHA": 0
-      }
+        },
+        "abilities": ["Darkvision","Fey Ancestry","Keen Senses"]
     },
     {
       "name": "Enano",
@@ -39,8 +41,9 @@
         "CON": 2,
         "INT": 0,
         "WIS": 0,
-        "CHA": 0  
-        }
+        "CHA": 0
+        },
+        "abilities": ["Dwarven Resilience","Dwarven Combat Training","Tool Proficiency"]  
     },
     {
       "name": "Mediano",
@@ -53,8 +56,9 @@
         "CON": 1,
         "INT": 0,
         "WIS": 0,
-        "CHA": 0  
-        }
+        "CHA": 0
+        },
+        "abilities": ["Stout Resilience","Lucky","Brave","Nimble"]  
     },
     {
       "name": "Draconido",
@@ -67,8 +71,9 @@
         "CON": 0,
         "INT": 0,
         "WIS": 0,
-        "CHA": 1  
-        }
+        "CHA": 1
+        },
+        "abilities": ["Draconic Ancestry","Breath Weapon","Damage Resistance"]  
     },
     {
       "name": "Tiflin",
@@ -81,8 +86,9 @@
         "CON": 0,
         "INT": 1,
         "WIS": 0,
-        "CHA": 2  
-        }
+        "CHA": 2
+        },
+        "abilities": ["Hellish Resistance"]  
     }
   ]
 }

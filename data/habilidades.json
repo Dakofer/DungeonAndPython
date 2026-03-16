@@ -1,13 +1,13 @@
 {
   "habilidad": [
         {
-        "name": "Vision Nocturna",
+        "name": "Darkvision",
         "requisitoXnivel": "1",
         "description": "Tus ojos estan adaptados para mirar a 60f de distancia."
         },
         {
-        "name": "Ancestros fericos",
-        "requisitoXnivel": "1",
+        "name": "Fey Ancestry",
+        "requisitoXnivel": 1,
         "description": "Tienes resistencia a los estados de <Encantado> y  a <Sueño>."
         },
         {

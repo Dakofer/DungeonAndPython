@@ -7,6 +7,7 @@ from screens.combat_mode import CombatMode
 
 
 class RPGApp(App):
+    CSS_PATH = "styles/CreatorCharacter.tcss"
 
     SCREENS = {
         "main_menu": MainMenu,

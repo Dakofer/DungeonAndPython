@@ -10,6 +10,7 @@ def Load_race(races_json):
                          size=r["size"],
                          description=r["description"],
                          speed=r["speed"],
-                         stast=r["stast"])
+                         stast=r["stast"],
+                         abilities=r["abilities"])
         races.append(new_races)
     return races
