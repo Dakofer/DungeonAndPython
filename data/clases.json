@@ -1,0 +1,25 @@
+{
+    "clase": [
+            {"name": "Barbaro",
+             "HP": 12,
+             "HPLevelUp": 12,
+             "Weapons": ["Simple_weapons", "martial_weapons"],
+             "Armor": ["Light_armor", "medium_armor", "shields"],
+             "Save_throws":["STR","CON"],
+             "abilities":["Rage","Unarmored_Defense","Danger_Sense",
+                        "Reckless_Attack","Primal_Path","Extra_Attack",
+                        "Fast_Movement","Feral_Instinct","Brutal_Critical",
+                        "Relentless_Rage","Persistent_Rage","Indomitable_Might",
+                        "Primal_Champion"]
+            },
+            {"name": "Guerrero",
+             "HP": 10,
+             "HPLevelUp": 10,
+             "Weapons": ["Simple_weapons","martial_weapons"],
+             "Armor": ["Light_armor", "medium_armor","Heavy_armor" ,"shields"],
+             "Save_throws":["STR","CON"],
+             "abilities": ["Fighting Style","Second Wind","Action_Surge",
+                           "Martial_Archetype","Extra_Attack","Indomitable"]
+            }
+    ]
+}

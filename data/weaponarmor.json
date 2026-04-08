@@ -1,0 +1,24 @@
+{
+  "weapons": [
+    {
+      "name": "battleaxe",
+      "Damage": "1d8",
+      "typeDamage":"slashing",
+      "property": ["Versatile(1d10)","martial"],
+      "cost": 10,
+      "weigth": 4,
+      "description": ""
+      
+    }
+],
+    "armor":[
+        {
+        "name": "padded armor",
+        "tipearmor": "light armor",
+        "stealh": "Disadvantage",
+        "cost": 5,
+        "weight":8,
+        "description": ""
+        }
+    ]
+}

@@ -1,5 +1,40 @@
 {
-  "abilities": [
+    "clase": [
+            {"name": "Barbaro",
+             "HP": 12,
+             "HPLevelUp": 12,
+             "Weapons": ["Simple_weapons", "martial_weapons"],
+             "Armor": ["Light_armor", "medium_armor", "shields"],
+             "Save_throws":["STR","CON"],
+             "abilities":["Rage","Unarmored_Defense","Danger_Sense",
+                        "Reckless_Attack","Primal_Path","Extra_Attack",
+                        "Fast_Movement","Feral_Instinct","Brutal_Critical",
+                        "Relentless_Rage","Persistent_Rage","Indomitable_Might",
+                        "Primal_Champion"]
+            },
+            {"name": "Guerrero",
+             "HP": 10,
+             "HPLevelUp": 10,
+             "Weapons": ["Simple_weapons","martial_weapons"],
+             "Armor": ["Light_armor", "medium_armor","Heavy_armor" ,"shields"],
+             "Save_throws":["STR","CON"],
+             "abilities": ["Fighting Style","Second Wind","Action_Surge",
+                           "Martial_Archetype","Extra_Attack","Indomitable"]
+            }
+    ],
+      "feat": [
+    {
+      "name": "Weapon Master",
+      "Requeriment": "None",
+      "description": "You have practiced extensively with a variety of weapons, gaining the following benefits./nIncrease your Strength or Dexterity score by 1, to a maximum of 20./nYou gain proficiency with four weapons of your choice. Each one must be a simple or a martial weapon."
+    },
+    {
+      "name": "Charger",
+      "Requeriment": "None",
+      "description": "When you use your action to Dash, you can use a bonus action to make one melee weapon attack or to shove a creature. If you move at least 10 feet in a straight line immediately before taking this bonus action, you either gain a +5 bonus to the attack’s damage roll (if you chose to make a melee attack and hit) or push the target up to 10 feet away from you (if you chose to shove and you succeed)."
+    }
+    ],
+    "abilities": [
         {
         "name": "Darkvision",
         "requisitoXnivel": "1",
@@ -157,6 +192,131 @@
         {"name": "Brutal Critical++",
         "levelRequeriment": 17,
         "description":"Beginning at 9th level, you can roll three additional weapon damage die when determining the extra damage for a critical hit with a melee"
+        }
+    ],
+    "razas": [
+    {
+      "name": "Humano",
+      "size": "Mediano",
+      "description": "Versátiles y adaptables.",
+      "speed": 25,
+      "stast": {
+        "STR": 1,
+        "DEX": 1,
+        "CON": 1,
+        "INT": 1,
+        "WIS": 1,
+        "CHA": 1
+        },
+        "abilities": []
+    },
+    {
+      "name": "Alto_Elfo",
+      "size": "Mediano",
+      "description": "Ágiles y con gran afinidad mágica.",
+      "speed": 25,
+      "stast": {
+        "STR": 0,
+        "DEX": 2,
+        "CON": 0,
+        "INT": 1,
+        "WIS": 1,
+        "CHA": 0
+        },
+        "abilities": ["Darkvision","Fey Ancestry","Keen Senses"]
+    },
+    {
+      "name": "Enano",
+      "size": "Mediano",
+      "description": "Enano con ENANISMOOO",
+      "speed": 25,
+      "stast": {
+        "STR": 2,
+        "DEX": 0,
+        "CON": 2,
+        "INT": 0,
+        "WIS": 0,
+        "CHA": 0
+        },
+        "abilities": ["Dwarven Resilience","Dwarven Combat Training","Tool Proficiency"]  
+    },
+    {
+      "name": "Mediano",
+      "size": "Small",
+      "description": "Lo mismo que el Enano con ENANISMOOO pero CON MAS ENANISMO",
+      "speed": 25,
+      "stast": {
+        "STR": 0,
+        "DEX": 2,
+        "CON": 1,
+        "INT": 0,
+        "WIS": 0,
+        "CHA": 0
+        },
+        "abilities": ["Stout Resilience","Lucky","Brave","Nimble"]  
+    },
+    {
+      "name": "Draconido",
+      "size": "Medium",
+      "description": "He's a freaking human-dragon with a lot of swagger.",
+      "speed": 25,
+      "stast": {
+        "STR": 2,
+        "DEX": 0,
+        "CON": 0,
+        "INT": 0,
+        "WIS": 0,
+        "CHA": 1
+        },
+        "abilities": ["Draconic Ancestry","Breath Weapon","Damage Resistance"]  
+    },
+    {
+      "name": "Tiflin",
+      "size": "Medium",
+      "description": "The devil can do striptease.",
+      "speed": 25,
+      "stast": {
+        "STR": 0,
+        "DEX": 0,
+        "CON": 0,
+        "INT": 1,
+        "WIS": 0,
+        "CHA": 2
+        },
+        "abilities": ["Hellish Resistance"]  
+    }
+  ],
+    "spell": [
+    {
+      "name": "Fire Ball",
+      "level": 1,
+      "School": "abjutation",
+      "range": 13,
+      "component":"V,S",
+      "duration": "instantaneous",
+      "description": " "
+    }
+    ],
+      "weapons": [
+    {
+      "name": "battleaxe",
+      "Damage": "1d8",
+      "typeDamage":"slashing",
+      "property": ["Versatile(1d10)","martial"],
+      "cost": 10,
+      "weigth": 4,
+      "description": ""
+      
+    }
+],
+    "armor":[
+        {
+        "name": "padded armor",
+        "tipearmor": "light armor",
+        "stealh": "Disadvantage",
+        "cost": 5,
+        "weight":8,
+        "description": ""
         }
     ]
 }

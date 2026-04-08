@@ -1,0 +1,13 @@
+{
+  "spell": [
+    {
+      "name": "Fire Ball",
+      "level": 1,
+      "School": "abjutation",
+      "range": 13,
+      "component":"V,S",
+      "duration": "instantaneous",
+      "description": " "
+    }
+    ]
+}

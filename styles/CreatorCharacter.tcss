@@ -3,11 +3,11 @@ Screen {
     align: center middle;
 }
 
-#race_list {
+#menu_list {
     width: 30;
 }
 
-#race_info {
+#menu_info {
     width: 60;
     padding: 1;
 }
